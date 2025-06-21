@@ -1,0 +1,378 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #111111;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #808080;
+}
+
+/* HEADER */
+header {
+    background-color: #DDCD9680;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 43px;
+    width: auto;
+    color: black;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.topleft {
+    color: #FFA500;
+    margin-right: 5px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome {
+    margin-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.welcome:hover {
+    color: #FFA500;
+}
+
+button {
+    background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #fff;
+    border: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+/* MAIN CONTENT */
+#s1 {
+    width: 100%;
+    padding: 100px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s1left {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.Diet {
+    padding: 20px 0;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.food {
+    color: #FFA500;
+}
+
+.Imagine {
+    margin-bottom: 20px;
+}
+
+.s1right {
+    width: 100%;
+    text-align: center;
+}
+
+.img1 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* ABOUT SECTION */
+#s2 {
+    margin: 50px 0 0;
+    width: 100%;
+    background-image: url(7.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s2.left {
+    width: 100%;
+    text-align: center;
+}
+
+.img3 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.s2.right {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.About {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.Contact {
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+/* RECIPES SECTION */
+.myrecipie {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+.recipie {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+
+.threerecipie {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.threerep {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #e8e6e6;
+}
+
+.img4 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.snack {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* FOLLOW SECTION */
+.follow {
+    width: 95%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 10px #cdcaca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.k {
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* POPULAR FOODS SECTION */
+.popular {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popularfood {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px 5px #e8e6e6;
+}
+
+.img5 {
+    width: 100%;
+}
+
+.font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    padding: 30px 0;
+    background-color: #111111;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.foodnetwork {
+    color: #FFA500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.net {
+    font-family: 'Times New Roman', Times, serif;
+    color: #808080;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-image: linear-gradient(to left, orange, rgb(243, 70, 70));
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+    /* Tablet styles */
+    #s1 {
+        flex-direction: row;
+        height: auto;
+    }
+    
+    .s1left {
+        width: 50%;
+        text-align: left;
+        padding: 50px;
+    }
+    
+    .s1right {
+        width: 50%;
+    }
+    
+    .Diet {
+        padding-right: 0;
+    }
+    
+    #s2 {
+        flex-direction: row;
+        padding: 50px;
+    }
+    
+    .s2.left {
+        width: 50%;
+    }
+    
+    .s2.right {
+        width: 50%;
+        text-align: left;
+        padding: 50px;
+    }
+    
+    .recipie {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .threerecipie {
+        width: 45%;
+    }
+    
+    .follow {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .popular {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .popularfood {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Desktop styles */
+    .threerecipie {
+        width: 30%;
+    }
+    
+    .popularfood {
+        width: 23%;
+    }
+    
+    .navbar {
+        padding: 20px 50px;
+    }
+    
+    #s1, #s2 {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Mobile styles */
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .logo {
+        margin-bottom: 10px;
+    }
+    
+    .item {
+        justify-content: center;
+    }
+    
+    .welcome {
+        margin: 0 10px 10px;
+    }
+    
+    button {
+        padding: 8px 16px;
+    }
+    
+    .Diet {
+        font-size: 1.5em;
+    }
+}
